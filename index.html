@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
-    
+    <header>
+        <h1>Alejandro Esteban Mora Echeverry</h1>
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skill">Skill</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About me</h2>
+            <p>I like to create new pages</p>
+            <p>I like to know new places</p>
+        </section>
+        <section id="skills">
+            <h2>Technical skills</h2>
+            <ul>
+                <li>C#</li>
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>SQL Developer</li>
+                <li>Oracle</li>
+                <li>Scrum</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                <div>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+                </div>
+                <div class="divSubmit">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Alejandro</p>
+    </footer>
 </body>
+
 </html>
